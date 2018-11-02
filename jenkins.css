@@ -1,0 +1,293 @@
+html, body, table, form, input, td, th, p, textarea, select {
+	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+footer {
+	visibility: hidden;
+}
+
+#add-item-panel .add-item-name .input-validation-message, #add-item-panel .add-item-copy .input-validation-message {
+	color: #ff0000 !important;
+}
+
+#add-item-panel .add-item-name label {
+	color: #eee !important;
+}
+
+#add-item-panel input {
+	background-color: #000 !important;
+}
+
+.item-copy,
+#items {
+	background-color: #373B41 !important;
+}
+
+.j-item-options li.active {
+	box-shadow: none !important;
+	background-color: #4B5158 !important;
+}
+
+#add-item-panel .categories {
+	border: 1px solid #4C5058 !important;
+}
+
+.jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab {
+    border-bottom-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+
+.bottom-sticker-edge,
+.bottom-sticker-inner {
+	background-color: #23272A !important;
+    border: solid 1px #36393e !important;
+}
+
+#breadcrumbs .item a {
+	color: #00b0f4 !important;
+}
+
+#breadcrumbs {
+	background-color: #4C5058;
+	border-bottom: 0px solid #000 !important;
+}
+
+.pane-header {
+	color: hsla(0, 0%, 100%, .8) !important;
+	background-color: #23272A !important;
+	border: solid 0px #4C5058 !important;
+}
+
+.CodeMirror-scroll,
+.textarea-preview {
+    background-color: #fff;
+    color: #000;
+}
+
+dd {
+    color: #fff !important;
+}
+
+#buildHistoryPage .build-search-row input {
+    color: #FFF;
+    background-color: #43444B;;
+    border: none;
+}
+
+.tab.active,
+.header {
+	border: solid 0px #4C5058 !important;
+}
+
+.pane-footer,
+.pane-frame {
+	border: solid 0.5px #4C5058 !important;
+}
+
+body {
+    background-color: #36393e;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body, table, form, td, th, p {
+	color: hsla(0, 0%, 100%, .8);
+}
+
+#page-body {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	background-color: #36393e;
+}
+
+.jenkins-config-widgets {
+    border: none;
+}
+
+.jenkins-config-widgets .form-config.tabBarFrame {
+    background-color: #23272A !important;
+    border: solid 1px #36393e !important;
+}
+
+#jenkins .jenkins-config {
+    background-color: #4C5058 !important;
+    border: solid 1px #36393e !important;
+}
+
+#main-panel {
+	flex: 1;
+	margin-left: 0 !important;
+}
+
+.pane-footer {
+     background-color: #36393e !important;
+}
+
+.build-row{
+	background-color: #43444B !important;
+}
+
+table.stripped-odd tr.header {
+	background: none !important;
+}
+table.stripped-odd tr:nth-child(2n+3) {
+	background-color: #36393e !important;
+}
+table.stripped-odd tr:nth-child(2n+2) {
+	background-color: #43444B !important;
+}
+
+a,
+a:link,
+a:hover,
+a:visited {
+	color: #00b0f4;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.yui-button button {
+	align-items: center;
+	background: none;
+	border-radius: 3px;
+	box-sizing: border-box;
+	display: flex;
+	font-size: 14px;
+	font-weight: 500;
+	justify-content: center;
+	line-height: 16px;
+	padding: 2px 16px;
+	position: relative;
+}
+
+.yui-button button,
+.yui-button button:hover,
+.yui-button button:active {
+	user-select: none !important;
+	cursor: pointer !important;
+	outline: none !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+#jenkins .yui-button.primary button {
+	transition: background-color .17s ease;
+	background-color: #7289da;
+	color: #fff;
+}
+
+#jenkins .yui-button.primary button:hover {
+	background-color: #677bc4;
+}
+
+#jenkins .yui-button.primary button:active {
+	background-color: #5b6eae;
+}
+
+.icon-rss,
+img[alt=Feed] {
+	border-radius: 4px;
+}
+
+.tabBar [type="radio"]:checked ~ a,
+.tabBar div.tab a:hover,
+.tabBar div.tab a.addTab:hover,
+.bigtable th {
+    background-color: #DCD8D5;
+}
+
+.tabBar .tab a,
+.tabBar .tab a.addTab {
+    color: #000;
+    border: none !important;
+}
+
+#buildHistoryPage .build-search-row .clear {
+    top: 4px;
+}
+
+.j-item-options li label,
+.pane.build-details a, .pane.build-details a:visited {
+    color: #eee !important;
+}
+
+#buildHistory table.pane td:hover {
+    background-color: #36393e;
+}
+
+.bottom-sticker-edge {
+    height: 0px !important;
+}
+
+.manage-option:hover {
+    background-color: #43444B !important;
+    border: 1px solid #43444B !important;
+}
+
+#header {
+    background-color: #23272A !important;
+}
+
+A.breadcrumbBarAnchor.mouseIsOverMenuSelector,
+#breadcrumbs LI.children:hover,
+#breadcrumbs LI:hover {
+    background-color: #36393e !important;
+}
+
+#menuSelector {
+    background-color: transparent !important;
+}
+
+
+#buildHistory .model-link-active {
+    background-color: #36393e !important;
+}
+
+#createItem input {
+    background-color: #FFF !important;
+    color: #000;
+}
+
+.add-item-name,
+.item-copy,
+.footer {
+    background-color: #36393e !important;
+    border: solid 1px #36393e !important;
+}
+
+.j-item-options li:hover {
+    background-color: #43444B !important;
+    border: solid 1px #4B5158 !important;
+}
+
+.hudson_model_FreeStyleProject.active {
+    background-color: #53444B !important;
+    border: solid 1px #5B5158 !important;
+}
+
+.tab,
+#projectstatus .header {
+    -webkit-filter: invert(100%) !important;
+}
+
+.btn-decorator {
+    background-color: transparent !important;
+    border: none !important;
+}
+.btn-decorator button {
+    background-color: #ddd !important;
+}
+
+.btn-decorator {
+    position: static !important;
+    text-align: left;
+}
